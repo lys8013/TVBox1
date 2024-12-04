@@ -17,7 +17,7 @@ var rule = {
         'User-Agent':'MOBILE_UA'
     },
     timeout:5000,
-    class_name:'蓝光电影&蓝光电视剧&蓝光纪录片&蓝光动漫&蓝光综艺&蓝光音乐&蓝光网络电影',
+    class_name:'蓝光电影&蓝光电视剧&蓝光纪录片&蓝光动漫&蓝光综艺&蓝光音乐&蓝光网络电影', 
     class_url:'1&2&3&4&6&5&16',
     limit:20,
     // play_parse:true,
