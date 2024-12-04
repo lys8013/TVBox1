@@ -17,7 +17,7 @@ var rule = {
     },
     timeout: 5000,
     class_name: '电视剧&电影&综艺&动漫&少儿&纪录片&文化&亲子&教育&搞笑&生活&体育&音乐&游戏',
-    class_url: '电视剧&电影&综艺&动漫&少儿&纪录片&文化&亲子&教育&搞笑&生活&体育&音乐&游戏',
+    class_url: '高清电视剧&高清电影&高清综艺&高清动漫&高清少儿&高清纪录片&高清文化&高清亲子&高清教育&高清搞笑&高清生活&高清体育&高清音乐&高清游戏',
     limit: 20,
     play_parse: true,
     lazy: $js.toString(() => {
@@ -140,7 +140,7 @@ var rule = {
                     title: it.title,
                     url: play_url + adhead(url)
                 })
-            } else if (name !== "优酷") {
+            } else if (name !== "五岳高清") {
                 d.push({
                     title: it.displayName ? it.displayName : it.title,
                     url: play_url + adhead(it.url)
