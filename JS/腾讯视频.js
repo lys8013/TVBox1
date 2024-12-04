@@ -24,7 +24,7 @@ var rule = {
     cate_exclude: '会员|游戏|全部',
     // class_name: '精选&电视剧&电影&综艺&动漫&少儿&纪录片',
     // class_url: 'choice&tv&movie&variety&cartoon&child&doco',
-    class_name: '精选&电影&电视剧&综艺&动漫&少儿&纪录片',
+    class_name: '五岳4K精选&五岳4K电影&五岳4K电视剧&五岳4K综艺&五岳4K动漫&五岳4K少儿&五岳4K纪录片',
     class_url: 'choice&movie&tv&variety&cartoon&child&doco',
     limit: 20,
     // play_parse:true,
@@ -117,7 +117,7 @@ var rule = {
         let zp = d.filter(function (it) {
             return !(it.type && it.type !== "正片")
         });
-        VOD.vod_play_from = yg.length < 1 ? "qq" : "qq$$$qq 预告及花絮";
+        VOD.vod_play_from = yg.length < 1 ? "五岳4K腾" : "4K$$$ 预告及花絮";
         VOD.vod_play_url = yg.length < 1 ? d.map(function (it) {
             return it.title + "$" + it.url
         }).join("#") : [zp, yg].map(function (it) {
@@ -148,7 +148,7 @@ var rule = {
             let img = pd(it, ".figure_pic&&src");
             url = "https://node.video.qq.com/x/api/float_vinfo2?cid=" + url.match(/.*\/(.*?)\.html/)[1];
             log(shortText + "|" + url);
-            if (fromTag.match(/腾讯/)) {
+            if (fromTag.match(/腾腾4k/)) {
                 d.push({
                     title: longText.split(shortText)[0],
                     img: img,
