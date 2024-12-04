@@ -109,42 +109,7 @@
       "playerType": 2,
       "timeout": 30
       
-      },
-    {
-      "key": "♦️2K天鹤♦️",
-      "name": "♦️2K天鹤♦️",
-      "type": 3,
-      "api": "./JS/drpy2.min.js",
-      "jar":"http://123.yunqiji.top/yunfensi/lib/奇迹云.txt",
-      "ext": "http://123.yunqiji.top/yunfensi/lib/云资源.js"
 
-      
-},
-
-    {
-   "key": "云端",
-      "name": "♦️好莱坞大片♦️蓝光",
-      "type": 3,
-      "api": "csp_Ddrk",
-      "jar":"http://wang.qijiyun.vip/yunzc/lib/meow1.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": 2
- 
- },
-
-       {
-      "key": "4k极煞",
-     "name": "♦️云瓜子cms♦️4k极煞",
-      "type": 3,
-      "api": "http://wang.qijiyun.vip/yunzc/drpy_libs/云drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "http://wang.qijiyun.vip/yunzc/lib/云瓜子.js"
          
          
 
