@@ -2,7 +2,7 @@
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "homepage": "https://github.com/hjdhnx/hipy-server",
   "homeLogo": "./img/logo500x200-1.png",
-  "spider": "https://vip.qcy168.cn/spider.jar;md5;20d2ee18388ea23295700d9cfb6648c8",
+  "spider": "./spider.jar;md5;20d2ee18388ea23295700d9cfb6648c8",
   "sites": [
 
     {
@@ -11,64 +11,64 @@
       "key": "腾腾4k",
       "name": "💯五岳4K①💯",
       "type": 3,
-      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/腾讯视频.js"
+      "ext": "./JS/腾讯视频.js"
       },
         {
       "key": "芒芒4k1",
       "name": "💯五岳4K②💯",
       "type": 3,
-      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/芒果视频.js"
+      "ext": "./JS/芒果视频.js"
       },
         {
     
       "key": "影探4K",
       "name": "💯五岳4K③💯",
       "type": 3,
-      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/影探4k.js"
+      "ext": "./JS/影探4k.js"
       
          },      
    {
      "key": "奇奇4k1",
       "name": "♦️奇奇蓝光♦️",
       "type": 3,
-      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/爱奇艺.js"
+      "ext": "./JS/爱奇艺.js"
       },  
     {
     
       "key": "酷酷4k1",
       "name": "♦️酷酷高清♦️",
       "type": 3,
-      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/优酷视频.js"
+      "ext": "./JS/优酷视频.js"
       
          },
     
@@ -76,25 +76,25 @@
       "key": "狗狗4k1",
       "name": "♦️菜狗备用♦️️️",
       "type": 3,
-      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/搜狗视频.js"
+      "ext": "./JS/搜狗视频.js"
       },
      {
       "key": "哔哩4k1",
       "name": "♦️B站资源♦️",
       "type": 3,
-      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/哔哩视频.js"
+      "ext": "./JS/哔哩视频.js"
       },      
 
     {
@@ -114,7 +114,7 @@
       "key": "♦️2K天鹤♦️",
       "name": "♦️2K天鹤♦️",
       "type": 3,
-      "api": "https://gh-proxy.com/https://raw.githubusercontent.com/PizazzGY/TVBox/main/JS/drpy2.min.js",
+      "api": "./JS/drpy2.min.js",
       "jar":"http://123.yunqiji.top/yunfensi/lib/奇迹云.txt",
       "ext": "http://123.yunqiji.top/yunfensi/lib/云资源.js"
 
