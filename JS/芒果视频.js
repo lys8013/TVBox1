@@ -128,7 +128,7 @@ var rule = {
         } else {
             print(input + "暂无片源")
         }
-        VOD.vod_play_from = "五岳4K芒";
+        VOD.vod_play_from = "五岳4K";
         VOD.vod_play_url = d.map(function (it) {
             return it.title + "$" + it.url
         }).join("#");
