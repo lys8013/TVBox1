@@ -140,7 +140,7 @@ var rule = {
                     title: it.title,
                     url: play_url + adhead(url)
                 })
-            } else if (name !== "五岳高清") {
+            } else if (name !== "优酷") {
                 d.push({
                     title: it.displayName ? it.displayName : it.title,
                     url: play_url + adhead(it.url)
