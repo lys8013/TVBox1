@@ -59,29 +59,33 @@
       },  
     
      {
+    
+      "key": "酷酷4k1",
+      "name": "♦️酷酷高清♦️",
+      "type": 3,
+      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://vip.qcy168.cn/优酷视频.js"
+      
+      },
+    
+    {
       "key": "狗狗4k1",
       "name": "♦️菜狗备用♦️️️",
       "type": 3,
-      "api": "./JS/drpy2.min.js",
+      "api": "https://vip.qcy168.cn/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "./JS/搜狗视频.js"
+      "ext": "https://vip.qcy168.cn/搜狗视频.js"
       },
-     {
-      "key": "哔哩4k1",
-      "name": "♦️B站资源♦️",
-      "type": 3,
-      "api": "./JS/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "order_num": 0,
-      "changeable": 0,
-      "ext": "./JS/哔哩视频.js"
-      },      
+
 
     {
       "key": "gzys",
@@ -94,39 +98,6 @@
       "changeable": 1,
       "playerType": 2,
       "timeout": 30
-      },
-    {
-         "key": "音范丝",
-            "name": "音范丝｜4K",
-            "type": 3,
-            "api": "csp_XPath",
-            "searchable": 1,
-            "quickSearch": 0,
-            "changeable": 0,
-            "ext": "./XPath/音范丝.json"
-
-      
-},
-
-    {
-    "key": "Mp4电影",
-            "name": "Mp4电影｜蓝光",
-            "type": 3,
-            "api": "csp_Mp4Mov",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
- 
- },
-
-       {
-      "key": "美剧天堂",
-            "name": "美剧天堂｜蓝光",
-            "type": 3,
-            "api": "csp_MeijuTT",
-            "searchable": 1,
-            "quickSearch": 1,
-            "filterable": 1
          
         
      
