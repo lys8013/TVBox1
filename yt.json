@@ -13,113 +13,99 @@
       "ext": "http://cmsyttv.lyyytv.cn/api.php/app/"
     },
     {
-      "key": "哔哩音乐",
-      "name": "🎧┃音乐鉴赏",
+
+    
+      "key": "腾腾4k",
+      "name": "💯五岳4K①💯",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/哔哩音乐.json"
-    },
-    {
-      "key": "drpy_哔哩",
-      "name": "🅱┃B站合集",
-      "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "playerType": 1,
-      "ext": "./lib/B站.js"
-    },
-    {
-      "key": "csp_FirstAid",
-      "name": "🚑┃急救教学",
-      "type": 3,
-      "api": "csp_FirstAid",
-      "searchable": 0,
-      "quickSearch": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 3.8
-      },
-      "gridview": "0-0-4.1"
-    },
-    {
-      "key": "csp_BookTing",
-      "name": "📚┃有声小说",
-      "type": 3,
-      "playerType": "2",
-      "api": "csp_BookTing",
-      "searchable": 0,
-      "ext": "https://m.ting275.com",
-      "style": {
-        "type": "rect",
-        "ratio": 1.333
-      }
-    },
-    {
-      "key": "少儿",
-      "name": "📚┃少儿教育",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
+      "order_num": 0,
       "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+      "ext": "./JS/腾讯视频.js"
       },
-      "ext": "./lib/少儿教育.json"
-    },
-    {
-      "key": "小学",
-      "name": "📚┃小学课堂",
+        {
+      "key": "芒芒4k1",
+      "name": "💯五岳4K②💯",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
       "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
+      "ext": "./JS/芒果视频.js"
       },
-      "ext": "./lib/小学课堂.json"
-    },
-    {
-      "key": "初中",
-      "name": "📚┃初中课堂",
+        {
+    
+      "key": "影探4K",
+      "name": "💯五岳4K③💯",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
       "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/初中课堂.json"
-    },
-    {
-      "key": "高中",
-      "name": "📚┃高中课堂",
+      "ext": "./JS/影探4k.js"
+      
+         },      
+   {
+     "key": "奇奇4k1",
+      "name": "♦️奇奇蓝光♦️",
       "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
+      "api": "./JS/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
       "changeable": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "ext": "./lib/高中课堂.json"
-    },
-    {
-      "key": "cc",
-      "name": "请勿相信视频中任何广告",
+      "ext": "./JS/爱奇艺.js"
+      },  
+    
+     {
+    
+      "key": "酷酷4k1",
+      "name": "♦️酷酷高清♦️",
       "type": 3,
-      "api": "csp_XPath",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://vip.qcy168.cn/优酷视频.js"
+      
+      },
+    
+    {
+      "key": "狗狗4k1",
+      "name": "♦️菜狗备用♦️️️",
+      "type": 3,
+      "api": "https://vip.qcy168.cn/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "changeable": 0,
+      "ext": "https://vip.qcy168.cn/搜狗视频.js"
+      },
+
+
+    {
+      "key": "gzys",
+      "name": "♦️瓜子3K♦️",
+      "type": 3,
+      "api": "csp_Gz360",
+      "jar": "http://m1839732.cf.caoni.ru/7/meow.php;md5;D2F2AD718A007B5733ABB5F91AD23533",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "playerType": 2,
+      "timeout": 30
+         
     },
     {
       "key": "local3",
