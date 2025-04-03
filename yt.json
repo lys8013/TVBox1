@@ -69,7 +69,7 @@
       "filterable": 1,
       "order_num": 0,
       "changeable": 0,
-      "ext": "https://vip.qcy168.cn/优酷视频.js"
+      "ext": "./JS/优酷视频.js"
       
       },
     
